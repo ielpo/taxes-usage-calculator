@@ -1,0 +1,39 @@
+{
+  "name": "taxes-usage-calculator",
+  "private": true,
+  "description": "Calculator to compute usage of tax money by the Swiss government.",
+  "version": "0.1.0",
+  "author": "ielpo, cslavenc, FireCloudHD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b main"
+  },
+  "dependencies": {
+    "gatsby": "^5.12.4",
+    "gatsby-plugin-image": "^3.12.0",
+    "gatsby-plugin-manifest": "^5.12.0",
+    "gatsby-plugin-sharp": "^5.12.0",
+    "gatsby-source-filesystem": "^5.12.0",
+    "gatsby-transformer-sharp": "^5.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "prettier": "^2.8.8"
+  },
+  "keywords": [
+    "taxes usage calculator switzerland",
+    "schweiz steuern berechnen"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ielpo/taxes-usage-calculator"
+  }
+}
