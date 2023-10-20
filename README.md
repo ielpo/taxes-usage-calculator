@@ -22,7 +22,7 @@ The expenses are computed as a share of total expenditure of the Canton/Confeder
 
 ### GDP data
 
-GDP data is exported from [data/bip.csv](data/bip.csv), available at <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/tabellen.assetdetail.27065234.html>.
+GDP data is exported from `data/bip.csv`, available at <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/tabellen.assetdetail.27065234.html>.
 
 | Name | Type | Content |
 | --- | --- | --- |
