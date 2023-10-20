@@ -26,7 +26,7 @@ GDP data is exported from `data/sources/bip.csv`, available at <https://www.bfs.
 
 | Name | Type | Content |
 | --- | --- | --- |
-| PERIOD | integer | year |
+| PERIOD | string | Year |
 | VARIABLE | string | "GDP": Gross domestic product <br /> "GDPPC": Gross domestic product per capita |
 | VALUE | float | Numeric value |
 | UNIT_MEAS | string | "MCHF": Million CHF <br /> "AC": Annual change with current prices in % <br /> "ACPP": Annual change with prices of previous year in % |
