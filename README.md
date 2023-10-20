@@ -9,7 +9,7 @@ Inform the public about the usage of tax money in a simple and clear interface. 
 ## Data structure
 
 ### Expense data
-The data of the confederation and of cantons is exported from the files `data/bund.xlsx` and `data/ktn_XX.xlsx`.
+The data of the confederation and of cantons is exported from the files `data/sources/bund.xlsx` and `data/sources/ktn_XX.xlsx`.
 These are part of the archive made available by the federal administration at <https://www.efv.admin.ch/efv/en/home/themen/finanzstatistik/daten.html>.
 
 The expenses are read from the sheet `ord_ausgaben_funk`, in which they are grouped by function. This is in order to be able to compare the confederation with individual cantons.
@@ -22,7 +22,7 @@ The expenses are computed as a share of total expenditure of the Canton/Confeder
 
 ### GDP data
 
-GDP data is exported from `data/bip.csv`, available at <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/tabellen.assetdetail.27065234.html>.
+GDP data is exported from `data/sources/bip.csv`, available at <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/tabellen.assetdetail.27065234.html>.
 
 | Name | Type | Content |
 | --- | --- | --- |
