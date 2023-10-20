@@ -1,0 +1,66 @@
+Expense data, stored in one file per year, e.g. "data_2022.json"
+
+{
+    "confederation": {
+        "gdp": 45000000,
+        "expenses": [
+            {
+                "id": "0",
+                "val": 0.12
+            },
+            {
+                "id": "01",
+                "val": 0.02
+            },
+            ...
+        ]
+    },
+    "cantons": [
+        {
+            "name": "ZH",
+            "expenses": [
+                {
+                    "id": "0",
+                    "val": 0.1
+                },
+                {
+                    "id": "01",
+                    "val": 0.05
+                },
+                ...
+            ]
+        },
+        {
+            "name": "AG",
+            "expenses": [
+                {
+                    "id": "0",
+                    "val": 0.04
+                },
+                ...
+            ]
+        },
+        ...
+    ]
+}
+
+
+Labels of the expenses, stored in one global file "labels.json"
+
+{
+    "labels": [
+        {
+            "id": "0",
+            "DE": "Allgemeine Verwaltung",
+            "FR": "",
+            "IT": ""
+        },
+        {
+            "id": "01",
+            "DE": "Legislative und Exekutive",
+            "FR": "",
+            "IT": ""
+        },
+        ...
+    ]
+}
