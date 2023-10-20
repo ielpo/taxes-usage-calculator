@@ -32,7 +32,7 @@ GDP data is exported from `data/sources/bip.csv`, available at <https://www.bfs.
 | UNIT_MEAS | string | "MCHF": Million CHF <br /> "AC": Annual change with current prices in % <br /> "ACPP": Annual change with prices of previous year in % |
 
 ### Processing
-The input data is processed with the Pyhton scripts in 
+The input data is processed with the Pyhton script `data/process_data.py`.
 
 ### Output
 The processed data is stored in one file per year `data/data_YYYY.json`.
