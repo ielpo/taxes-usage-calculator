@@ -16,6 +16,8 @@ The expenses are read from the sheet `ord_ausgaben_funk`, in which they are grou
 
 Each function has a unique ID identifying it and the corresponding labels are stored once.
 
+The IDs are further splitted in category and subcategory, each category is a single digit ID between 0 and 9. The subcategories vary in number, but are represented by one subcategory digit between 1 and 9 appended to the category digit. For example the category "Social security" has ID 5, and its subcategory "Subsidized housing" has the ID 56.
+
 ### GDP data
 
 GDP data is exported from [data/bip.csv](data/bip.csv), available at <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/tabellen.assetdetail.27065234.html>.
