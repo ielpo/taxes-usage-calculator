@@ -18,6 +18,8 @@ Each function has a unique ID identifying it and the corresponding labels are st
 
 The IDs are further splitted in category and subcategory, each category is a single digit ID between 0 and 9. The subcategories vary in number, but are represented by one subcategory digit between 1 and 9 appended to the category digit. For example the category "Social security" has ID 5, and its subcategory "Subsidized housing" has the ID 56.
 
+The expenses are computed as a share of total expenditure of the Canton/Confederation and stored as a fractional number.
+
 ### GDP data
 
 GDP data is exported from [data/bip.csv](data/bip.csv), available at <https://www.bfs.admin.ch/bfs/de/home/statistiken/kataloge-datenbanken/tabellen.assetdetail.27065234.html>.
