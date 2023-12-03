@@ -11,5 +11,10 @@ import pandas as pd
 
 
 #Run main program-------------------------------------------------------------
+def main():
+    pass
+
+
+
 if __name__ == "__main__":
-    print("I love Sakuya Izayoi!")
+    main()
